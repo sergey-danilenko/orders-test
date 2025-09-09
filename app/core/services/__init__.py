@@ -1,7 +1,7 @@
 from .client import GetAllClients
 from .order import (
     GetOrderById,
-    GetAllOrder,
+    GetAllOrders,
     CreateOrder,
     UpdateOrder,
     DeleteOrder,

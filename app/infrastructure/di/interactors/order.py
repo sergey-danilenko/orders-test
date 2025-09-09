@@ -4,7 +4,7 @@ from app.core.interfaces.adapters.order import OrderGateway
 from app.core.interfaces.uow import UoW
 from app.core.services.order import (
     GetOrderById,
-    GetAllOrder,
+    GetAllOrders,
     CreateOrder,
     UpdateOrder,
     DeleteOrder,
@@ -23,8 +23,8 @@ class OrderInteractorProvider(Provider):
     @provide
     def get_all_orders(
         self, uow: UoW, db_gateway: OrderGateway,
-    ) -> GetAllOrder:
-        return GetAllOrder(uow=uow, db_gateway=db_gateway)
+    ) -> GetAllOrders:
+        return GetAllOrders(uow=uow, db_gateway=db_gateway)
 
     @provide
     def create_order(

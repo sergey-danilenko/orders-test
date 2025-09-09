@@ -18,7 +18,7 @@ class GetOrderById(OrderInteractor[int, dto.Order]):
         return order
 
 
-class GetAllOrder(OrderInteractor[dto.OrdersQuery, list[dto.Order]]):
+class GetAllOrders(OrderInteractor[dto.OrdersQuery, list[dto.Order]]):
     async def __call__(self, query: dto.OrdersQuery) -> list[dto.Order]:
         orders = await self.db_gateway.get_all_orders(query)
         return orders

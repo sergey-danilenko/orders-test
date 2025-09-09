@@ -75,8 +75,8 @@ git clone https://github.com/sergey-danilenko/orders-test.git
 cd orders-test
 ```
 2. Перед дальнейшими шагами:
-- Переименуйте файл <b>dist.env</b> на <b>.env></b>
-- Переименуйте каталог <b>/config_dist/</b> на <b>/config/</b>
+- Переименуйте файл <b>[dist.env](./dist.env)</b> на <b>.env></b>
+- Переименуйте каталог <b>/[config_dist](./config_dist)/</b> на <b>/config/</b>
 Внутри этого каталога настройте при необходимости файл: <b>config/config.yml</b>
 ```yml
 app:
@@ -214,11 +214,13 @@ static_key: YourStaticKey
 
 ## <a id="sql-anchor"></a> SQL
 
-### DDL - схемы находятся в каталоге ./sql
-- **Для PostgreSQL:** ./sql/postgresql/schema.sql
-- **Для SQLite:** ./sql/sqlite/schema.sql
+### DDL - схемы находятся в каталоге [./sql](./sql)
+- **Для PostgreSQL:** [./sql/postgresql/schema.sql](./sql/postgresql/schema.sql)
+- **Для SQLite:** [./sql/sqlite/schema.sql](./sql/sqlite/schema.sql)
 
-Запросы по заданию из пункта 2 находятся в каталоге ./sql/queries.sql.
+Запросы по заданию из пункта 2 находятся в [./sql/queries.sql](./sql/queries.sql)
+
+Ответ по заданию из п. 2.3.2 в [./sql/2.3.2.txt](./sql/2.3.2.txt).
 
 Для проверки запустите файл run_queries.py
 ```bash

@@ -1,0 +1,59 @@
+[
+  {
+    "name": "Холодильник Aceline",
+    "stock_quantity": 10,
+    "price": 18999,
+    "category_id": null,
+    "subcategory": "однокамерные"
+  },
+  {
+    "name": "Холодильник Indesit",
+    "stock_quantity": 5,
+    "price": 26799,
+    "category_id": null,
+    "subcategory": "однокамерные"
+  },
+  {
+    "name": "Холодильник DEXP",
+    "stock_quantity": 20,
+    "price": 24599,
+    "category_id": null,
+    "subcategory": "двухкамерные"
+  },
+  {
+    "name": "Стиральная машина LG",
+    "stock_quantity": 6,
+    "price": 29999,
+    "category_id": null,
+    "subcategory": "Стиральные машины"
+  },
+  {
+    "name": "Стиральная машина Indesit",
+    "stock_quantity": 8,
+    "price": 21499,
+    "category_id": null,
+    "subcategory": "Стиральные машины"
+  },
+  {
+    "name": "Телевизор Samsung",
+    "stock_quantity": 3,
+    "price": 51599,
+    "category_id": null,
+    "subcategory": "Телевизоры"
+  },
+  {
+    "name": "Ноутбук Asus 17″",
+    "stock_quantity": 1,
+    "price": 85699,
+    "category_id": null,
+    "subcategory": "17″"
+  },
+  {
+    "name": "Ноутбук Aser 19″",
+    "stock_quantity": 15,
+    "price": 65399,
+    "category_id": null,
+    "subcategory": "19″"
+  }
+
+]

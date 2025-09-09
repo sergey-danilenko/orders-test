@@ -1,0 +1,18 @@
+app:
+  name: «Добавление товара в заказ»
+db:
+  type: sqlite
+#  type: postgresql
+#  host: localhost
+#  port: 5432
+#  user: postgres
+#  password: postgres
+  connector: aiosqlite
+#  connector: asyncpg
+  dbname: catalog.sqlite3
+  echo: false
+  pool_pre_ping: false
+api:
+  auth:
+    static_key: YourStaticKey
+    header_name: X-API-Key
